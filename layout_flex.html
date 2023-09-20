@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex-Layout</title>
+    <style>
+      .main {
+        width: 530px;
+        height: 530px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .header {
+        width: 500px;
+        height: 100px;
+        background-color: crimson;
+      }
+
+      .middle {
+        width: 500px;
+        height: 300px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .nav {
+        width: 100px;
+        height: 300px;
+        background-color: blueviolet;
+      }
+
+      .article {
+        width: 280px;
+        height: 300px;
+        background-color: brown;
+      }
+
+      .aside {
+        width: 100px;
+        height: 300px;
+        background-color: cadetblue;
+      }
+
+      .footer {
+        width: 500px;
+        height: 100px;
+        background-color: cornflowerblue;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <div class="header">This is header</div>
+      <div class="middle">
+        <div class="nav">This is nav</div>
+        <div class="article">This is article</div>
+        <div class="aside">This is aside</div>
+      </div>
+      <div class="footer">This is footer</div>
+    </div>
+  </body>
+</html>
